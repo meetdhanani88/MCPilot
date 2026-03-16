@@ -1,0 +1,17 @@
+{
+  "name": "company-chatbot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Monorepo — Company AI Assistant (React frontend + Express backend + MCP server)",
+  "scripts": {
+    "dev:mcp": "cd mcp-server && npm run dev",
+    "dev:server": "cd server && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev": "cd mcp-server && npm run dev & cd server && npm run dev & cd frontend && npm run dev",
+    "start:mcp": "cd mcp-server && npm start",
+    "start:server": "cd server && npm start",
+    "build:frontend": "cd frontend && npm run build",
+    "seed": "cd mcp-server && npm run seed",
+    "install:all": "cd mcp-server && npm install && cd ../server && npm install && cd ../frontend && npm install"
+  }
+}

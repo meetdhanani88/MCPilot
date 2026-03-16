@@ -1,0 +1,21 @@
+{
+  "name": "company-chatbot-server",
+  "version": "1.0.0",
+  "description": "Express.js backend — Agent + MCP + LLM",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "@langchain/core": "^1.1.32",
+    "@langchain/groq": "^1.1.5",
+    "@langchain/langgraph": "^1.2.2",
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "openai": "^4.73.0",
+    "zod": "^3.25.76"
+  }
+}

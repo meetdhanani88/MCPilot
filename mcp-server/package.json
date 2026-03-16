@@ -1,0 +1,17 @@
+{
+  "name": "company-mcp-server",
+  "version": "1.0.0",
+  "description": "Standalone MCP server exposing company database and document tools",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "seed": "node scripts/seed.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "better-sqlite3": "^11.6.0",
+    "express": "^4.21.0",
+    "zod": "^3.23.8"
+  }
+}
